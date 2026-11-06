@@ -1,0 +1,245 @@
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element Selector */
+body {
+    font-family: Georgia, serif;
+    background-color: #f5f8ff;
+    color: #101b32;
+}
+
+a {
+    text-decoration: none;
+    color: #073b91;
+}
+
+p {
+    line-height: 1.5;
+}
+
+/* ID Selector */
+#header {
+    background-color: #0b2141;
+    color: white;
+    padding: 18px 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home {
+    background-color: #d9e8ff;
+    padding: 45px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about {
+    flex: 2;
+}
+
+#skills {
+    flex: 1;
+}
+
+#projects {
+    margin: 22px;
+}
+
+#hobbies {
+    flex: 1;
+}
+
+#contact {
+    flex: 1;
+}
+
+#footer {
+    background-color: #0b2141;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Class Selector */
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.home-content {
+    width: 55%;
+}
+
+.home-content h1 {
+    font-size: 55px;
+    margin: 15px 0;
+}
+
+.home-content h2 {
+    font-size: 35px;
+    margin-bottom: 12px;
+}
+
+.home-content span {
+    color: #124b9a;
+}
+
+.home-image {
+    width: 40%;
+    height: 260px;
+    background-color: #b5d3ff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.laptop {
+    font-size: 120px;
+}
+
+.plant {
+    font-size: 55px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #103b6b;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+.about-skills {
+    display: flex;
+    gap: 18px;
+    margin: 20px 22px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #c5d3e6;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card h2 {
+    background-color: #102c50;
+    color: white;
+    padding: 12px 20px;
+    font-size: 27px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 18px;
+}
+
+.about-content p {
+    flex: 1;
+    font-size: 18px;
+}
+
+.about-content img {
+    width: 35%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card ul,
+.card ol {
+    padding: 15px 45px;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+.project-container {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 50%;
+    background-color: #f0f4fc;
+    border: 1px solid #bdcce2;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.project-icon {
+    background-color: #d9e9ff;
+    font-size: 65px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project h3 {
+    color: #103d7b;
+    margin-bottom: 8px;
+}
+
+.project p {
+    margin-bottom: 8px;
+}
+
+.project a {
+    text-decoration: underline;
+}
+
+.bottom-section {
+    display: flex;
+    gap: 18px;
+    margin: 22px;
+}
+
+#hobbies,
+#contact {
+    padding-bottom: 15px;
+}
+
+#contact p {
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+.connect {
+    color: #124b91;
+    font-style: italic;
+    text-align: center;
+    margin: 15px;
+}
+
+/* Grouping Selector */
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+nav a, .project a {
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin-left: 25px;
+    font-size: 17px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
