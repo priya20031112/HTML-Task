@@ -1,147 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Portfolio</title>
+    <title>CSS Colors and Box Model</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Navigation -->
-    <header id="header">
-        <div class="logo">
-            &lt;/&gt; Hari Priya Godavarthi
+    <h1>CSS Colors and Box Model</h1>
+
+    <!-- Task 1: CSS Color Properties -->
+
+    <h2>Task 1: CSS Color Properties</h2>
+
+    <section class="color-section">
+
+        <div class="color-box color-name">
+            <h3>Color Names</h3>
+            <p>This text uses named CSS colors.</p>
         </div>
 
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-
-    <!-- Home Section -->
-    <section id="home">
-        <div class="home-content">
-            <p>WELCOME TO MY PORTFOLIO</p>
-            <h1>Hi, I'm <span>Hari Priya Godavarthi</span></h1>
-            <h2>Full Stack Developer</h2>
-            <p>I build web applications and love to learn
-            new technologies.</p>
-            <a href="#projects" class="btn">Explore My Projects →</a>
+        <div class="color-box hex">
+            <h3>HEX Colors</h3>
+            <p>This text uses HEX color format.</p>
         </div>
 
-        <div class="home-image">
-            <div class="laptop">💻</div>
-            <div class="plant">🌿</div>
-        </div>
-    </section>
-
-    <!-- About and Skills -->
-    <section class="about-skills">
-
-        <div id="about" class="card">
-            <h2>👤 About Me</h2>
-            <div class="about-content">
-                <p>
-                    I'm a passionate Full Stack Developer
-                    who enjoys building web applications
-                    and exploring new technologies.
-                    I am always eager to learn and grow
-                    in the field of software development.
-                </p>
-                <img src="https://www.shutterstock.com/image-vector/flat-vector-illustration-female-software-260nw-2815624211.jpg"
-                     alt="Mountain Image">
-            </div>
+        <div class="color-box rgb">
+            <h3>RGB Colors</h3>
+            <p>This text uses RGB color format.</p>
         </div>
 
-        <div id="skills" class="card">
-            <h2>⭐ Skills</h2>
-            <ul>
-                <li>Excel</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>PowerBi</li>
-                <li>MySQL</li>
-                <li>Python</li>
-            </ul>
+        <div class="color-box rgba">
+            <h3>RGBA Colors</h3>
+            <p>This section uses transparency with RGBA.</p>
+        </div>
+
+        <div class="color-box hsl">
+            <h3>HSL Colors</h3>
+            <p>This text uses HSL color format.</p>
+        </div>
+
+        <div class="color-box hsla">
+            <h3>HSLA Colors</h3>
+            <p>This section uses transparency with HSLA.</p>
         </div>
 
     </section>
 
-    <!-- Projects -->
-    <section id="projects" class="card">
-        <h2>💻 Projects</h2>
+    <hr>
 
-        <div class="project-container">
+    <!-- Task 2: CSS Box Model -->
 
-            <div class="project">
-                <div class="project-icon">💰</div>
-                <div>
-                    <h3>Stress Detection Based on Facial Expressions</h3>
-                    <p>
-                        A Python project to detect stress levels based on facial expressions
-                        using image processing techniques.
-                    </p>
-                    <a href="#">View Project →</a>
-                </div>
-            </div>
+    <h2>Task 2: CSS Box Model</h2>
 
-            <div class="project">
-                <div class="project-icon">🌐</div>
-                <div>
-                    <h3>AI Call Agent</h3>
-                    <p>
-                        A web application that uses AI to handle customer calls,
-                        providing automated responses and assistance.
-                    </p>
-                    <a href="#">View Project →</a>
-                </div>
-            </div>
+    <div class="box content-box">
+        <h3>Welcome To CSS Content Box</h3>
+        <p>This is a simple content box.</p>
+        <p>This is a default content box.</p>
+    </div>
 
-        </div>
-    </section>
+    <div class="box border-box">
+        <h3>Welcome To CSS Border Box</h3>
+        <p>Border box contains padding and border.</p>
+    </div>
 
-    <!-- Hobbies and Contact -->
-    <section class="bottom-section">
-
-        <div class="card" id="hobbies">
-            <h2>❤️ Hobbies</h2>
-            <ol>
-                <li>Playing Badminton</li>
-                <li>Listening to Music</li>
-                <li>Exploring New Technologies</li>
-                <li>Traveling</li>
-            </ol>
-        </div>
-
-        <div class="card" id="contact">
-            <h2>✉️ Contact</h2>
-            <p>📧 Email: haripriya11@gmail.com</p>
-            <p>📞 Phone: +91 8247249732</p>
-            <p>🔗 LinkedIn: <a href="#">linkedin.com/in/haripriyagodavarthi</a></p>
-            <h3 class="connect">Let's Connect!</h3>
-        </div>
-
-    </section>
-
-    <!-- Footer -->
-    <footer id="footer">
-        <p>© 2026 Hari Priya Godavarthi. All Rights Reserved.</p>
-    </footer>
-
-</body>
-</html>
+    <div class="box custom-box">
+        <h3>Welcome To Custom Box</h3>
+        <p>Different padding, border and margin.</p>
+    </div>
 
 </body>
 </html>

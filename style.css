@@ -1,245 +1,118 @@
 
-/* Universal Selector */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* General Styling */
 
-/* Element Selector */
 body {
-    font-family: Georgia, serif;
-    background-color: #f5f8ff;
-    color: #101b32;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
 
-a {
-    text-decoration: none;
-    color: #073b91;
-}
-
-p {
-    line-height: 1.5;
-}
-
-/* ID Selector */
-#header {
-    background-color: #0b2141;
-    color: white;
-    padding: 18px 4%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#home {
-    background-color: #d9e8ff;
-    padding: 45px 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#about {
-    flex: 2;
-}
-
-#skills {
-    flex: 1;
-}
-
-#projects {
-    margin: 22px;
-}
-
-#hobbies {
-    flex: 1;
-}
-
-#contact {
-    flex: 1;
-}
-
-#footer {
-    background-color: #0b2141;
-    color: white;
+h1 {
+    color: blue;
     text-align: center;
-    padding: 25px;
 }
 
-/* Class Selector */
-.logo {
-    font-size: 30px;
-    font-weight: bold;
+h2 {
+    color: #ff4500;
+    text-align: center;
 }
 
-.home-content {
-    width: 55%;
-}
+/* TASK 1: CSS COLOR PROPERTIES */
 
-.home-content h1 {
-    font-size: 55px;
-    margin: 15px 0;
-}
-
-.home-content h2 {
-    font-size: 35px;
-    margin-bottom: 12px;
-}
-
-.home-content span {
-    color: #124b9a;
-}
-
-.home-image {
-    width: 40%;
-    height: 260px;
-    background-color: #b5d3ff;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.laptop {
-    font-size: 120px;
-}
-
-.plant {
-    font-size: 55px;
-}
-
-.btn {
-    display: inline-block;
-    background-color: #103b6b;
-    color: white;
-    padding: 12px 25px;
-    border-radius: 12px;
-    margin-top: 15px;
-}
-
-.about-skills {
-    display: flex;
-    gap: 18px;
-    margin: 20px 22px;
-}
-
-.card {
-    background-color: white;
-    border: 1px solid #c5d3e6;
-    border-radius: 12px;
-    overflow: hidden;
-}
-
-.card h2 {
-    background-color: #102c50;
-    color: white;
-    padding: 12px 20px;
-    font-size: 27px;
-}
-
-.about-content {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 18px;
-}
-
-.about-content p {
-    flex: 1;
-    font-size: 18px;
-}
-
-.about-content img {
-    width: 35%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.card ul,
-.card ol {
-    padding: 15px 45px;
-    font-size: 19px;
-    line-height: 1.6;
-}
-
-.project-container {
-    display: flex;
-    gap: 20px;
-    padding: 15px;
-}
-
-.project {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    width: 50%;
-    background-color: #f0f4fc;
-    border: 1px solid #bdcce2;
-    border-radius: 10px;
-    padding: 12px;
-}
-
-.project-icon {
-    background-color: #d9e9ff;
-    font-size: 65px;
+.color-section {
     padding: 20px;
-    border-radius: 10px;
+    background-color: white;
 }
 
-.project h3 {
-    color: #103d7b;
-    margin-bottom: 8px;
-}
-
-.project p {
-    margin-bottom: 8px;
-}
-
-.project a {
-    text-decoration: underline;
-}
-
-.bottom-section {
-    display: flex;
-    gap: 18px;
-    margin: 22px;
-}
-
-#hobbies,
-#contact {
-    padding-bottom: 15px;
-}
-
-#contact p {
-    padding: 5px 20px;
-    font-weight: bold;
-}
-
-.connect {
-    color: #124b91;
-    font-style: italic;
-    text-align: center;
+.color-box {
+    padding: 15px;
     margin: 15px;
+    border: 2px solid black;
+    text-align: center;
 }
 
-/* Grouping Selector */
-h1, h2, h3 {
-    font-weight: bold;
+/* 1. Color Names */
+
+.color-name {
+    background-color: lightyellow;
+    color: red;
 }
 
-nav a, .project a {
-    font-weight: bold;
+.color-name h3 {
+    color: green;
 }
 
-nav a {
-    color: white;
-    margin-left: 25px;
-    font-size: 17px;
+/* 2. HEX Colors */
+
+.hex {
+    background-color: #e6e6fa;
+    color: #0000FF;
+    border-color: #800080;
 }
 
-nav {
-    display: flex;
-    align-items: center;
+/* 3. RGB Colors */
+
+.rgb {
+    background-color: rgb(255, 228, 196);
+    color: rgb(255, 0, 0);
+    border-color: rgb(0, 128, 0);
+}
+
+/* 4. RGBA Colors */
+
+.rgba {
+    background-color: rgba(255, 0, 0, 0.2);
+    color: rgba(0, 0, 255, 1);
+    border-color: rgba(255, 0, 0, 0.5);
+}
+
+/* 5. HSL Colors */
+
+.hsl {
+    background-color: hsl(120, 60%, 90%);
+    color: hsl(240, 100%, 50%);
+    border-color: hsl(120, 100%, 25%);
+}
+
+/* 6. HSLA Colors */
+
+.hsla {
+    background-color: hsla(280, 100%, 50%, 0.2);
+    color: hsla(0, 100%, 50%, 1);
+    border-color: hsla(280, 100%, 50%, 0.5);
+}
+
+/* TASK 2: CSS BOX MODEL */
+
+.box {
+    width: 250px;
+    margin: 30px;
+    padding: 20px;
+}
+
+/* Content Box */
+
+.content-box {
+    box-sizing: content-box;
+    background-color: lightblue;
+    border: 5px solid blue;
+}
+
+/* Border Box */
+
+.border-box {
+    box-sizing: border-box;
+    background-color: lightgreen;
+    border: 5px dashed green;
+}
+
+/* Custom Box */
+
+.custom-box {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 30px;
+    margin: 40px;
+    background-color: lightpink;
+    border: 8px double purple;
 }
